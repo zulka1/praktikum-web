@@ -1,4 +1,8 @@
-# Dokumen Teknis Modul 1 — Lingkungan Pengembangan, Git, dan Lalu LintasHTTPNama/NIM :Repositori :
+# Dokumen Teknis Modul 1 — Lingkungan Pengembangan, Git, dan Lalu Lintas HTTP
+
+Nama/NIM : Ubaidulloh Zulkarnain/105224024
+Repositori : https://github.com/zulka1/praktikum-web/
+
 ## 1. Lingkungan Pengembangan
 <img width="762" height="162" alt="dokumen1" src="https://github.com/user-attachments/assets/59277ad3-a925-47bb-ac03-68fc175c16ef" />
 
@@ -72,15 +76,16 @@
 	Location: https://github.com/
 
 
-- Berdasarkan hasil pengujian menggunakan curl, ketika mengakses http://localhost:3000 dengan metode HEAD (curl -I), server mengembalikan status 200 OK tanpa body karena HEAD hanya mengambil header untuk efisiensi — berbeda dengan GET (curl -v) yang mengembalikan seluruh konten HTML dengan Transfer-Encoding: chunked (ukuran dinamis, tidak tetap), dan keduanya menunjukkan Cache-Control: no-cache, must-revalidate yang berarti browser tidak diizinkan menyimpan cache sehingga setiap request akan selalu meminta ulang ke server. Sementara itu, saat mengakses http://github.com, server langsung merespons dengan 301 Moved Permanently dan Content-Length: 0 (tidak ada body sama sekali), karena GitHub memaksa seluruh koneksi menggunakan HTTPS demi keamanan — sehingga setiap permintaan melalui HTTP (port 80) secara permanen dialihkan ke https://github.com/ (port 443) yang terenkripsi.
+- Berdasarkan hasil pengujian menggunakan curl, ketika mengakses http://localhost:3000 dengan metode HEAD (curl -I), server mengembalikan status 200 OK tanpa body karena HEAD hanya mengambil header untuk efisiensi. berbeda dengan GET (curl -v) yang mengembalikan seluruh konten HTML dengan Transfer-Encoding: chunked (ukuran dinamis, tidak tetap), dan keduanya menunjukkan Cache-Control: no-cache, must-revalidate yang berarti browser tidak diizinkan menyimpan cache sehingga setiap request akan selalu meminta ulang ke server. Sementara itu, saat mengakses http://github.com, server langsung merespons dengan 301 Moved Permanently dan Content-Length: 0 (tidak ada body sama sekali), karena GitHub memaksa seluruh koneksi menggunakan HTTPS demi keamanan, sehingga setiap permintaan melalui HTTP (port 80) secara permanen dialihkan ke https://github.com/ (port 443) yang terenkripsi.
 ## 4. Kendala dan Penyelesaian
 - salah upload ke main dulu, jadi hard reset
--- salah direktori run
+- salah direktori run
 ## 5. Catatan Pemanfaatan AI
 - you are a senior developer, create a simple interface presentation in page.tx
 the rules ar simple use color flaxen, modern and simple
 company name is zulka corporation
 the output need to be a single file. that can be run after finished
+
 -D:\KULIAH\5\pemrograman aplikasi web\week-1>npm run dev
 npm error code ENOENT
 npm error syscall open
@@ -91,13 +96,19 @@ npm error enoent This is related to npm not being able to find a file.
 npm error enoent
 npm error A complete log of this run can be found in: C:\Users\ubaid\AppData\Local\npm-cache\_logs\2026-09-25T07_54_23_186Z-debug-0.log
 re compile?
+
 -i mean web page 
 not ppt
 some business
+
 -make web page look like profesional page
-maybe the business is satelit internet like starlink?Analysis: differences in status and size between loading with and without cache, the reason the `curl -I` method uses HEAD, and the reason http://github.com is redirected.
+maybe the business is satelit internet like starlink?
+
+-Analysis: differences in status and size between loading with and without cache, the reason the `curl -I` method uses HEAD, and the reason http://github.com is redirected.
 mean?
 i must to run on github?
+
 -show me what is the direct
 my repo : https://github.com/zulka1/praktikum-web
+
 -so whats the question meaning?
