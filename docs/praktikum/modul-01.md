@@ -1,6 +1,6 @@
 # Dokumen Teknis Modul 1 — Lingkungan Pengembangan, Git, dan Lalu LintasHTTPNama/NIM :Repositori :
 ## 1. Lingkungan Pengembangan
-![Tabel versi]([https://drive.google.com/u/0/drive-viewer/AKGpihYwVUmgiCTYd7lKCgzygDGSxnIjCNnUDYlF1AS8kKQwg9OYJHLy79MD9HZuNRKku09lvNetCzqXmyqxKgxkruZVBDcOHJgIQPk=s2560?auditContext=forDisplay](https://drive.google.com/file/d/1uOaKaQocKuNOni5ykMqmUwvEHjOa9ur9/view?usp=sharing))
+<img width="762" height="162" alt="dokumen1" src="https://github.com/user-attachments/assets/59277ad3-a925-47bb-ac03-68fc175c16ef" />
 
 ## 2. Alur Kerja Git
 - D:\KULIAH\5\pemrograman aplikasi web>git log --oneline --graph
@@ -10,7 +10,7 @@
 - https://github.com/zulka1/praktikum-web/pull/1
 - konflik tidak ada
 ## 3. Pengamatan Lalu Lintas HTTP
-![Tabel versi]([https://drive.google.com/u/0/drive-viewer/AKGpihb6q4_aF0-_vvJq06yI_LO6LnEXGkm3C_SC0ALk9U8ZF71aoSyDBgMrraFPkD_2SI1JpogGBMqPk31Ex-prvGod9CadsEibSA=s1600-rw-v1?auditContext=forDisplay](https://drive.google.com/file/d/1uOaKaQocKuNOni5ykMqmUwvEHjOa9ur9/view?usp=sharing))
+<img width="1031" height="897" alt="dokumen3" src="https://github.com/user-attachments/assets/b71fbe71-b148-4f09-8a36-ffa44b628295" />
 
 - Keluaran curl -I dan curl -v :
 	D:\KULIAH\5\pemrograman aplikasi web\week-1\zulka-corporation>curl -I http://localhost:3000
