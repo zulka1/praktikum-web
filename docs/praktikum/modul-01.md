@@ -4,7 +4,13 @@ Nama/NIM : Ubaidulloh Zulkarnain/105224024
 Repositori : https://github.com/zulka1/praktikum-web/
 
 ## 1. Lingkungan Pengembangan
-<img width="762" height="162" alt="dokumen1" src="https://github.com/user-attachments/assets/59277ad3-a925-47bb-ac03-68fc175c16ef" />
+| software | version |
+|----------|---------|
+| Operating System | Windows 11 Home 25H2 (build 26200.9457) |
+| Node.js | v24.21.0 |
+| npm | 11.19.0 |
+| Git | 2.55.0.windows.5 |
+| Visual Studio Code | 1.139.1 |
 
 ## 2. Alur Kerja Git
 - D:\KULIAH\5\pemrograman aplikasi web>git log --oneline --graph
@@ -20,7 +26,7 @@ Repositori : https://github.com/zulka1/praktikum-web/
 | 2 | http://localhost:3000/halaman-tidak-ada | GET | ... | ... | ... |
 | 3 | Satu berkas CSS atau JS dari localhost | GET | 304 Not Modified | ... | Ukuran transfer 0.3 kB (browser memakai salinan cache setelah validasi ke server) |
 | 4 | http://github.com (curl) | GET (`curl -v`), HEAD (`curl -I`) | 301 Moved Permanently | Tidak ada (body kosong) | `Content-Length: 0`; `Location: https://github.com/` |
-| 5 | https://developer.mozilla.org (dengan cache) | GET | ... | ... | ... |
+| 5 | https://developer.mozilla.org (dengan cache) | GET (`curl -v`), HEAD (`curl -I`) | 302 Found | text/plain; charset=utf-8 | `Location: /en-US/`; `Cache-Control: max-age=3600, public`; `Age: 2469` (bukti respons diambil dari cache CDN, bukan dari server asal); `X-Cache: MISS, HIT`; `Via: 1.1 google, 1.1 varnish, 1.1 varnish`; `Server: Google Frontend` |
 
 - Berdasarkan hasil pengujian menggunakan curl, ketika mengakses http://localhost:3000 dengan metode HEAD (curl -I), server mengembalikan status 200 OK tanpa body karena HEAD hanya mengambil header untuk efisiensi. berbeda dengan GET (curl -v) yang mengembalikan seluruh konten HTML dengan Transfer-Encoding: chunked (ukuran dinamis, tidak tetap), dan keduanya menunjukkan Cache-Control: no-cache, must-revalidate yang berarti browser tidak diizinkan menyimpan cache sehingga setiap request akan selalu meminta ulang ke server. Sementara itu, saat mengakses http://github.com, server langsung merespons dengan 301 Moved Permanently dan Content-Length: 0 (tidak ada body sama sekali), karena GitHub memaksa seluruh koneksi menggunakan HTTPS demi keamanan, sehingga setiap permintaan melalui HTTP (port 80) secara permanen dialihkan ke https://github.com/ (port 443) yang terenkripsi.
 ## 4. Kendala dan Penyelesaian
