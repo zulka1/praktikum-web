@@ -71,5 +71,4 @@ Repositori : https\://github.com/zulka1/praktikum-web
 
 - Struktur Semantik  
 * Kerangka landmark dan hierarki judul halaman utama  
-* Tangkapan layar pohon aksesibilitas pada DevTools  
-- 
+* Tangkapan layar pohon aksesibilitas pada DevTools 
