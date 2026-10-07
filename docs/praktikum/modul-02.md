@@ -5,7 +5,9 @@ Repositori : https\://github.com/zulka1/praktikum-web
 
 ## 1\. Struktur Semantik
 
-- Kerangka landmark   
+- Kerangka landmark
+  <img width="806" height="422" alt="Screenshot 2026-10-07 143812" src="https://github.com/user-attachments/assets/7d36487f-1f5c-4fed-a1d3-86c1fc2d9363" />
+
   h1  Zulka Orbit  
   ├─ h2  Fitur Utama  
   │   ├─ h3  Fitur pertama  
@@ -15,11 +17,17 @@ Repositori : https\://github.com/zulka1/praktikum-web
   └─ h2  Hubungi Kami [support@zulkaorbit.com](mailto:support@zulkaorbit.com)  
     
 - Tangkapan layar pohon aksesibilitas pada DevTools
+  <img width="541" height="672" alt="Screenshot 2026-10-07 204140" src="https://github.com/user-attachments/assets/49182872-f87a-473b-92e0-f6e52dac23e1" />
 
 
 ## 2\. Tata Letak Responsif
 
-- Tangkapan layar pada lebar 360 px, 768 px, dan 1280 px  
+- Tangkapan layar pada lebar 360 px, 768 px, dan 1280 px
+  <img width="497" height="801" alt="Screenshot 2026-10-07 204746" src="https://github.com/user-attachments/assets/7d77b618-e517-430d-a65e-ee564d42a1d7" />
+  <img width="757" height="805" alt="Screenshot 2026-10-07 204917" src="https://github.com/user-attachments/assets/5de7ed63-2822-4c77-91ad-3f5f6b41a260" />
+  <img width="917" height="797" alt="Screenshot 2026-10-07 204944" src="https://github.com/user-attachments/assets/2d9665cc-e380-433b-99f2-2c36a727b3c3" />
+
+
 - Kelas Flexbox  
 * flex flex-col sm:flex-row sm:items-center sm:justify-between digunakan untuk mengatur navigasi. Pada layar kecil, elemen disusun ke bawah, kemudian menjadi satu baris mulai ukuran sm.  
 * flex flex-col gap-2 sm:flex-row sm:gap-6 digunakan untuk mengatur daftar tautan. Tautan ditampilkan vertikal di layar kecil dan horizontal di layar yang lebih besar.  
@@ -32,6 +40,7 @@ Repositori : https\://github.com/zulka1/praktikum-web
   Breakpoint  
 * sm: digunakan pada ukuran layar 640 px ke atas untuk mengubah beberapa layout dari vertikal menjadi horizontal.  
 * lg: digunakan pada ukuran layar 1024 px ke atas untuk menampilkan layout desktop, seperti tiga kolom pada kartu fitur.
+
 
 ## 3\. Audit Aksesibilitas
 
@@ -61,14 +70,30 @@ Repositori : https\://github.com/zulka1/praktikum-web
 
 
 - Hasil pemeriksaan manual dengan papan ketik (urutan fokus dan garis fokus)
+| Elemen yang difokuskan | Tombol | Urutan sesuai visual | Garis fokus terlihat | Catatan |
+|------------------------|--------|----------------------|----------------------|---------|
+| Skip link "Lewati ke konten utama" | Tab, Enter |  |  | Muncul saat Tab pertama; Enter memindahkan fokus ke konten utama |
+| Tautan logo NamaProduk | Tab |  |  | Garis fokus putih di header gelap |
+| Tautan Fitur | Tab, Enter |  |  | Menggulir ke bagian Fitur |
+| Tautan Kontak | Tab, Enter |  |  | Menggulir ke bagian Kontak |
+| Kolom Nama lengkap | Tab |  |  | |
+| Kolom Surel | Tab |  |  | Petunjuk dibacakan lewat aria-describedby |
+| Radio Peran | Tab, panah |  |  | Satu kelompok, satu kali berhenti dengan Tab |
+| Kolom Pesan | Tab |  |  | |
+| Tombol Kirim | Tab, Enter/Spasi |  |  | |
+
 
 ## 4\. Kendala dan Penyelesaian
 
 - bingung ngerjainnya pake web hasil prompting yang kemarin week 1 atau ngikut modul, akhirnya cari aman ngikutin modul 2 aja nyusun webnya.  
 - benerin error setelah pemeriksaan skor, tapi kebantu ai padahal cuman aku suruh buat tabel saja
 
+
 ## 5\. Catatan Pemanfaatan AI
 
 - Struktur Semantik  
 * Kerangka landmark dan hierarki judul halaman utama  
 * Tangkapan layar pohon aksesibilitas pada DevTools 
+- <img width="688" height="435" alt="Screenshot 2026-10-07 211810" src="https://github.com/user-attachments/assets/63875c27-6d0c-4c4e-bef6-5a84c11018c7" />
+- <img width="955" height="350" alt="Screenshot 2026-10-07 211750" src="https://github.com/user-attachments/assets/59ac174c-35b0-40be-b760-aed75f782e66" />
+
