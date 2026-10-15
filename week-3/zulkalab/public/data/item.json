@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "judul": "Panel surya atap",
+    "kategori": "energi",
+    "deskripsi": "Pemantauan produksi listrik harian.",
+    "tersedia": true
+  },
+  {
+    "id": 2,
+    "judul": "Tempat Kompos Organik",
+    "kategori": "lingkungan",
+    "deskripsi": "Mengolah limbah makanan kantin menjadi pupuk.",
+    "tersedia": true
+  },
+  {
+    "id": 3,
+    "judul": "Stasiun Pengisian Daya EV",
+    "kategori": "kampus",
+    "deskripsi": "Fasilitas gratis untuk motor listrik mahasiswa.",
+    "tersedia": true
+  },
+  {
+    "id": 4,
+    "judul": "Turbin Angin Mikro",
+    "kategori": "energi",
+    "deskripsi": "Pembangkit listrik alternatif skala kecil.",
+    "tersedia": false
+  },
+  {
+    "id": 5,
+    "judul": "Sensor Kualitas Udara",
+    "kategori": "lingkungan",
+    "deskripsi": "Mengukur tingkat polusi udara di area luar.",
+    "tersedia": true
+  },
+  {
+    "id": 6,
+    "judul": "Sepeda Kampus Bersama",
+    "kategori": "kampus",
+    "deskripsi": "Layanan peminjaman sepeda ramah lingkungan.",
+    "tersedia": true
+  }
+]
