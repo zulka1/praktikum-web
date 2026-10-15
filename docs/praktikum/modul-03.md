@@ -58,8 +58,9 @@ Repositori  : https://github.com/zulka1/praktikum-web/
 
 ## 3\. State dan Interaksi
 
-- Tangkapan layar tab Components (props dan state DaftarItem)  
-  <img width="1091" height="903" alt="image" src="https://github.com/user-attachments/assets/f53c21ad-5787-48d9-a41f-09e4851cfa0d" />
+- Tangkapan layar tab Components (props dan state DaftarItem)
+
+  <img width="1093" height="906" alt="image" src="https://github.com/user-attachments/assets/67bb05b2-a5c6-46f5-921b-c7460e7284b9" />
 
 - Penjelasan alur dari event hingga render ulang  
   Pada komponen DaftarItem, terdapat dua state. State kataKunci bertipe string dengan nilai awal "", digunakan untuk menyimpan teks yang dimasukkan pengguna pada kolom pencarian. State filter bertipe Kategori | "semua" dengan nilai awal "semua", digunakan untuk menyimpan kategori yang dipilih pengguna.  
@@ -73,7 +74,9 @@ Repositori  : https://github.com/zulka1/praktikum-web/
 ## 4\. Pengambilan Data
 
 - Tangkapan layar panel Network untuk permintaan item.json  
-  ![][image2]  
+
+  <img width="1091" height="903" alt="image" src="https://github.com/user-attachments/assets/8aac363f-1f07-4107-805a-1f67817bbbb5" />
+
 - Hasil pengujian kondisi memuat, berhasil, dan gagal  
   Pengujian kondisi memuat dilakukan dengan mengaktifkan throttling Fast 3G pada tab Network. Permintaan item.json memerlukan waktu beberapa detik untuk selesai. Selama data masih diminta, komponen menampilkan pesan “Memuat data...”. Setelah respons diterima, daftar item ditampilkan. Pada pengujian ini, status permintaan terlihat 304 karena respons menggunakan cache browser; status tersebut bukan error.
 
