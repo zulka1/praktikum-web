@@ -60,17 +60,10 @@ Repositori  : https://github.com/zulka1/praktikum-web/
 
 - Tangkapan layar tab Components (props dan state DaftarItem)
 
-  <img width="1093" height="906" alt="image" src="https://github.com/user-attachments/assets/67bb05b2-a5c6-46f5-921b-c7460e7284b9" />
+  <img width="985" height="882" alt="Screenshot 2026-10-16 084648" src="https://github.com/user-attachments/assets/b96cf794-ed56-4a1d-992c-848e287a7a71" />
 
 - Penjelasan alur dari event hingga render ulang  
-  Pada komponen DaftarItem, terdapat dua state. State kataKunci bertipe string dengan nilai awal "", digunakan untuk menyimpan teks yang dimasukkan pengguna pada kolom pencarian. State filter bertipe Kategori | "semua" dengan nilai awal "semua", digunakan untuk menyimpan kategori yang dipilih pengguna.  
-  Alur event hingga render ulang:  
-1. Pengguna mengetik pada input pencarian atau memilih tombol kategori.  
-2. onChange atau onClick memanggil setKataKunci atau setFilter.  
-3. React memperbarui state DaftarItem dan menjalankan render ulang.  
-4. Komponen menghitung ulang hasil dengan mencocokkan kata kunci pada judul dan kategori yang dipilih.  
-5. Daftar kartu serta jumlah item ditemukan diperbarui. Jika tidak ada hasil, pesan “Tidak ada item yang sesuai.” ditampilkan.
-
+  Pada tab Components, DaftarItem menerima props items, yaitu daftar item yang ditampilkan. Bagian Hooks menunjukkan dua state yang digunakan komponen: kataKunci untuk pencarian dan filter untuk penyaringan berdasarkan kategori.
 ## 4\. Pengambilan Data
 
 - Tangkapan layar panel Network untuk permintaan item.json  
